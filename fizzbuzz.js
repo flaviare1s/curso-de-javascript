@@ -5,7 +5,7 @@
 // Não for um número => não é um número
 
 
-const resultado = fizzBuzz(4);
+let resultado = fizzBuzz(10);
 console.log(resultado);
 
 
