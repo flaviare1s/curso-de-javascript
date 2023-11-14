@@ -1,9 +1,8 @@
 // Exercício Objeto de Postagem de Blog
 
-let postagem = {
+const postagem = {
     titulo: 'Meu Blog',
-    mensagem: `Esta é uma postagem fantasia 
-    criada para o meu blog fantasia.`,
+    mensagem: `Esta é uma postagem fantasia criada para o meu blog fantasia.`,
     autor: 'Eu',
     visualizações: 3,
     comentários: [
