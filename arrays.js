@@ -16,3 +16,5 @@ console.log(numeros)
 console.log(numeros.indexOf(2)) // Retorna o índice do elemento.
 console.log(numeros.indexOf(7)) // OBS: Quando o elemento não está presente no array, ele retorna o valor -1.
 console.log(numeros.lastIndexOf(1)) // Retorna o índice da última ocorrência do valor, caso o valor seja repetido.
+
+console.log(numeros.includes(2)) // Retorna true se o valor estiver presente no array.
