@@ -20,6 +20,18 @@ console.log(numeros.lastIndexOf(1)) // Retorna o índice da última ocorrência 
 console.log(numeros.includes(2)) // Retorna true se o valor estiver presente no array.
 
 
+// Removendo elementos de um array:
+console.log(numeros)
+numeros.pop() // Remove um elemento do final do array
+console.log(numeros)
+
+numeros.shift() // Remove o primeiro elemento do array
+console.log(numeros)
+
+numeros.splice(2, 1) // Remove elementos do meio de um array
+console.log(numeros)
+
+
 // Encontrando elementos (tipos de referência):
 const marcas = [
     {id: 1, nome: 'a'},
@@ -32,3 +44,5 @@ const marca = marcas.find(function(marca) {
     return marca.nome === 'a'
 })
 console.log(marca)
+// Arrow Functions:
+console.log(marcas.find(marca => marca.nome === 'a'))
